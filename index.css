@@ -1,0 +1,96 @@
+body{
+    font-family: 'Anonymous Pro', monospace;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	min-height: 2000px;
+}
+
+* {
+	margin: 0;
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+body > * {
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0;
+}
+
+.head {
+	position: fixed;;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	text-shadow: 0.08em 0.08em 0.1em black;
+	color: white;
+	background-color: black;
+	background-size: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+}
+
+.upper {
+	background: no-repeat;
+	background-image: url(res/deck-1968415.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+
+.upper > h2 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4.2em;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.3em;
+}
+
+.upper > p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	font-size: 4em;
+	margin-top: 1em;
+	line-height: 1em;
+	color: white;
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 1em;
+}
+
+.pr1 {
+	text-align: center;
+	font-size: 3em;
+	background-color: black;
+	color: white;
+	padding: 0.3em;
+}
+
+.mid1 {
+	background: no-repeat;
+	background-image: url(res/bokeh-2152298.jpg);
+	background-size: 150%;
+	background-attachment: fixed;
+	padding-bottom: 4em;
+	padding-top: 2em;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.mid1 > div {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.mid1 > div > ul {
+	display: inline-block;
+	width: 40%;
+	font-size: 2em;
+	padding-top: 0.7em;
+}
