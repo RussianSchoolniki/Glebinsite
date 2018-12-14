@@ -59,8 +59,8 @@ body > * {
 
 #site {
 	position: absolute;
-	left: 0;
-	right: 0;
+	left: 30%;
+	right: 30%;
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 2em;
