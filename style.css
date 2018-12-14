@@ -21,11 +21,9 @@ body > * {
 }
 
 .head {
-	position: fixed;;
+	position: fixed;
 	top: 0;
-	text-align: center;
 	width: 100%;
-	text-shadow: 0.08em 0.08em 0.1em black;
 	color: white;
 	background-color: black;
 	background-size: 100%;
@@ -33,6 +31,43 @@ body > * {
 	padding-right: 0;
 	margin-top: 0;
 	transition: 0.3s;
+	display: inline-block;
+}
+
+.head > a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+.head:hover {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.head:hover > * {
+	color: white;
+}
+
+.head > a:hover {
+	color: gray;
+}
+
+#site {
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
 }
 
 .upper {
@@ -90,7 +125,7 @@ body > * {
 }
 
 .mid1 > div > ul {
-	display: inline-block;
+	display: inline-table;
 	width: 40%;
 	font-size: 2em;
 	padding-top: 0.7em;
@@ -113,6 +148,8 @@ body > * {
 	background-size: 180%;
 	background-position: top right;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+
 }
 
 .mid2 > p {
