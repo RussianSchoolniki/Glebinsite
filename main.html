@@ -129,11 +129,67 @@ body > * {
 	width: 70%;
 	padding: 0.5em;
 }
+#site {
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+}
+.head:hover {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.head:hover > * {
+	color: white;
+}
+
+.head > a:hover {
+	color: gray;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	background-color: black;
+	background-size: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.head > a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 1em;
+}
+
 </style>
 
 
 </head>
 <body>
+	<div class="head">
+		<a href="#" id="site">Сайт</a>
+		<a href="#">Главная</a>
+		<a href="#">Шото там</a>
+		<a href="#">Шото здесь</a>
+		<a href="#">Паспорт</a>
+	</div>
 	<h1 class="head">Сайт</h1>
 	<div class="upper">
 		<h2>Welcome</h2>
