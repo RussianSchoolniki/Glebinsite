@@ -32,6 +32,7 @@ body > * {
 	padding-left: 0;
 	padding-right: 0;
 	margin-top: 0;
+	transition: 0.3s;
 }
 
 .upper {
@@ -93,4 +94,31 @@ body > * {
 	width: 40%;
 	font-size: 2em;
 	padding-top: 0.7em;
+}
+
+.pr2 {
+	text-align: center;
+	background-color: black;
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
+	font-family: 'Press Start 2P', monospace;
+	color: white;
+}
+
+.mid2 {
+	padding: 1em;
+	font-size: 3em;
+	background-image: url(res/code-1839406.jpg);
+	color: white;
+	background-size: 180%;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+.mid2 > p {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	padding: 0.5em;
 }
