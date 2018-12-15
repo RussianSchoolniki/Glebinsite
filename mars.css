@@ -1,0 +1,212 @@
+body{
+    font-family: 'Anonymous Pro', monospace;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	min-height: 2000px;
+}
+
+* {
+	margin: 0;
+}
+
+h1, h2{
+	font-family: 'Press Start 2P', cursive;
+}
+
+body > * {
+	margin-left: 0;
+	margin-right: 0;
+	margin: 0;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	background-color: black;
+	background-size: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.head > a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+.head:hover {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.head:hover > * {
+	color: white;
+}
+
+.head > a:hover {
+	color: gray;
+}
+
+#site {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+}
+
+.upper {
+	background: no-repeat;
+	background-image: url(res/deck-1968415.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+
+.upper > h2 {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4.2em;
+    text-align: center;
+    margin: 0;
+    padding-top: 0.3em;
+}
+
+.upper > p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+	font-size: 4em;
+	margin-top: 1em;
+	line-height: 1em;
+	color: white;
+    font-family: 'Anonymous Pro', monospace;
+    padding-bottom: 1em;
+}
+
+.pr1 {
+	text-align: center;
+	font-size: 3em;
+	background-color: black;
+	color: white;
+	padding: 0.3em;
+}
+
+.mid1 {
+	background: no-repeat;
+	background-image: url(res/bokeh-2152298.jpg);
+	background-size: 150%;
+	background-attachment: fixed;
+	padding-bottom: 4em;
+	padding-top: 2em;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.mid1 > div {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.mid1 > div > ul {
+	display: inline-table;
+	width: 40%;
+	font-size: 2em;
+	padding-top: 0.7em;
+}
+
+.pr2 {
+	text-align: center;
+	background-color: black;
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
+	font-family: 'Press Start 2P', monospace;
+	color: white;
+}
+
+.mid2 {
+	padding: 1em;
+	font-size: 3em;
+	background-image: url(res/code-1839406.jpg);
+	color: white;
+	background-size: 180%;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.mid2 > p {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	padding: 0.5em;
+}
+
+.head:hover {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.head:hover > * {
+	color: white;
+}
+
+.head > a:hover {
+	color: gray;
+}
+
+.head {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: white;
+	background-color: black;
+	background-size: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 0;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.head > a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-left: 1em;
+}
+
+#site {
+	position: absolute;
+	left: 40%;
+	right: 40%;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2em;
+	color: white;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 0;
+}
+
