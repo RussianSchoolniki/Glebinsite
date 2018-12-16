@@ -72,7 +72,7 @@ body > * {
 
 .upper {
 	background: no-repeat;
-	background-image: url(res/cosmos.jpg);
+	background-image: url(../res/cosmos.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
 	margin-bottom: 0;
@@ -110,14 +110,14 @@ body > * {
 
 .mid1 {
 	background: no-repeat;
-	background-image: url(res/night.jpg);
+	background-image: url(../res/night.jpg);
 	background-size: 150%;
 	background-attachment: fixed;
 	padding-bottom: 4em;
 	padding-top: 2em;
 	padding-left: auto;
 	padding-right: auto;
-	color:white;
+	color: white;
 }
 
 .mid1 > div {
@@ -132,6 +132,7 @@ body > * {
 	font-size: 2em;
 	padding-top: 0.7em;
 	background-color: rgba(0, 0, 0, 0.5);
+	padding-bottom: 1em;
 }
 
 .pr2 {
@@ -146,7 +147,7 @@ body > * {
 .mid2 {
 	padding: 1em;
 	font-size: 3em;
-	background-image: url(res/sunset.jpg);
+	background-image: url(../res/sunset.jpg);
 	color: white;
 	background-size: 180%;
 	background-position: top right;
