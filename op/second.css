@@ -20,7 +20,7 @@ body > * {
 	margin: 0;
 }
 
-.head {
+header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -34,7 +34,7 @@ body > * {
 	display: inline-block;
 }
 
-.head > a {
+header > a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -44,23 +44,23 @@ body > * {
 	margin-left: 1em;
 }
 
-.head:hover {
+header:hover {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-.head:hover > * {
+header:hover > * {
 	color: white;
 }
 
-.head > a:hover {
+header > a:hover {
 	color: gray;
 }
 
 #site {
 	position: absolute;
-	left: 0;
-	right: 0;
+	left: 30%;
+	right: 30%;
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	font-size: 2em;
@@ -164,20 +164,20 @@ body > * {
 	padding: 0.5em;
 }
 
-.head:hover {
+header:hover {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-.head:hover > * {
+header:hover > * {
 	color: white;
 }
 
-.head > a:hover {
+header > a:hover {
 	color: gray;
 }
 
-.head {
+header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -191,7 +191,7 @@ body > * {
 	display: inline-block;
 }
 
-.head > a {
+header > a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;

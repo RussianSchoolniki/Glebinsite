@@ -20,7 +20,7 @@ body > * {
 	margin: 0;
 }
 
-.head {
+header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -34,7 +34,7 @@ body > * {
 	display: inline-block;
 }
 
-.head > a {
+header > a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -44,16 +44,16 @@ body > * {
 	margin-left: 1em;
 }
 
-.head:hover {
+header:hover {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-.head:hover > * {
+header:hover > * {
 	color: white;
 }
 
-.head > a:hover {
+header > a:hover {
 	color: gray;
 }
 
@@ -160,20 +160,20 @@ body > * {
 	padding: 0.5em;
 }
 
-.head:hover {
+header:hover {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-.head:hover > * {
+header:hover > * {
 	color: white;
 }
 
-.head > a:hover {
+header > a:hover {
 	color: gray;
 }
 
-.head {
+header {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -187,7 +187,7 @@ body > * {
 	display: inline-block;
 }
 
-.head > a {
+header > a {
 	display: inline-block;
 	text-decoration: none;
 	color: black;
