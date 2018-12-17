@@ -91,23 +91,23 @@ header > a:hover {
 
 
 .b {
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 9.5em;
+	margin-right: 9.5em;
 	font-size:2em; 
 	background-color: black;
 	color:white;
 }
 
 .c {
-	margin-left:20%;
-	margin-right:20%;
+	margin-left:9.5em;
+	margin-right:9.5em;
 	font-size: 2.5em;
 	margin-top: 2.5%;
 }
 
 
 .d {
-	margin-left: 20%;
+	margin-left:22.5em;
 	width: 40%;
 	margin-top: 3%;
 }
@@ -115,21 +115,21 @@ header > a:hover {
 .d1 {
 	background-color: black;
 	color: white;
-	margin-left: 20%;
-	margin-right:20%;
+	margin-left:9.5em;
+	margin-right:9.5em;
 	font-size: 2em;
 	margin-top:3%; 
 }
 
 .d2 {
-	margin-left:20%;
-	margin-right:20%;
+	margin-left:9.5em;
+	margin-right:9.5em;
 	font-size: 2.5em;
 	margin-top: 3.2%;
 }
 
 .d3 {
-	margin-left: 20%;
+	margin-left:22.5em;
 	margin-top: 3.5%;
 	width: 60%;
 }
