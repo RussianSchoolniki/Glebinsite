@@ -71,9 +71,6 @@ header > a:hover {
 	margin-left: 0;
 }
 
-.a1{
-		background-image: url(../res/office.jpg);
-}
 
 .a {
 	padding: 1em;
@@ -88,8 +85,8 @@ header > a:hover {
 .a > p {
 	margin-right: auto;
 	margin-left: auto;
-	width: 70%;
 	padding: 0.5em;
+	text-align: center;
 }
 
 
